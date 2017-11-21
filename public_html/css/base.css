@@ -1,0 +1,237 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000 !important;
+}
+
+#shl-bar {
+	position:absolute;
+	height: 32px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #eee;
+    color: black;
+	font-family: "Open Sans Condensed",Arial,sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+#shl-link {
+	float:left;
+	position:relative;
+	top: -4;
+	text-align:left;
+	width: 100%;
+	font-size: 24px;
+	z-index: 99;
+}
+
+#shl-logo {
+	position:relative;
+	top: 4;
+	float:left;
+	padding-top: 0;
+	height: 24px;
+	padding-left: 10px;
+}
+
+#site-title {
+	position: absolute;
+	float:left;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#site-content {
+    padding: 105px 10px 50px 10px;
+    color: black;
+    background-color:white;
+}
+
+.clear{
+	clear:all;
+}
+
+#logo-bar {
+	position: absolute;
+	top:32;
+	height: 56px;
+	line-height: 60px;
+	width: 100%;
+	background-color: #000;
+	overflow:hidden;
+	white-space: nowrap;
+}
+
+.header-logo {
+	position:absolute;
+	height: 130px;
+	top:-14;
+	left: 30;
+	z-index: 98;
+}
+
+#footer {
+    background-color:black;
+    margin-top:100px;
+    padding-right: 100px;
+    font-size: 12px;
+    color: #FCB616;
+}
+
+#footer-text {
+    position:relative;
+    top:-11px;
+    font-family: "Yantramanav", Arial, sans-serif;
+    font-size: 60px;
+    color: #FFF;
+    font-style: italic;
+}
+
+.footer-logo{
+    position:relative;
+    float: left;
+    margin-right: 50px;
+    top:-30px;
+    height:200px;
+}
+
+#logobar-title {
+	position:absolute;
+	left:155px;
+	font-family: "Yantramanav", Arial, sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #FFF;
+	height: 56px;
+}
+
+.clear{
+	clear:all;
+}
+
+#nav-bar {
+	position: absolute;
+	top:88;
+	height: 46px;
+	line-height: 46px;
+	width: 100%;
+	background-color: #FCB616;
+	overflow:hidden;
+	white-space: nowrap;
+}
+
+.nav-button {
+	position:relative;
+	left:180px;
+	width: auto;
+	height: 46px;
+	padding: 14px 12px;
+}
+
+.nav-button:hover {
+	background-color: #FFF;
+	box-shadow: 0px 5px 0px 0px black inset;
+}
+
+#header-wrapper{
+	position: absolute;
+	top:88;
+	height: 46px;
+	line-height: 46px;
+	width: 100%;
+	background-color: #FCB616;
+    z-index: 2;
+}
+
+
+/*mega menu start*/
+.top-bar-section li.megamenu {
+    width: auto!important;
+}
+.top-bar-section li.megamenu > .dropdown {
+    left: auto!important;
+    top: 46px;
+    height: 300px !important;
+    background: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.top-bar-section > ul > li.megamenu > .dropdown > li.has-dropdown > a {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    margin: 0;
+    max-width: 150px;
+}
+.top-bar-section > ul > li.megamenu > .dropdown {
+    position: absolute;
+    background: white;
+}
+.top-bar-section > ul > li.megamenu > .dropdown > li > .dropdown > li a {
+    padding-top: 4px!important;
+    padding-bottom: 4px!important;
+    height: 37px;
+}
+.top-bar-section > ul > li.megamenu > .dropdown > li > .dropdown > li > a:hover {
+    color: #FCB616 !important;
+}
+.top-bar-section > ul > li.megamenu .dropdown a {
+    padding-left: 17px;
+}
+.top-bar-section > ul > li.megamenu > .dropdown > li {
+    padding-top: 3px!important;
+	font-family: "Open Sans Condensed",Arial,sans-serif;
+}
+
+/* Link text */
+.top-bar-section > ul > li.megamenu > .dropdown > li > a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 5px!important;
+}
+.top-bar-section > ul > li.megamenu > .dropdown > li > .dropdown > li:last-child {
+    height: 50px!important;
+}
+.top-bar-section > ul > li.megamenu:hover > .dropdown > li.has-dropdown {
+    visibility: visible;
+    opacity: 1;
+    padding: 10px 0px;!important;
+}
+.top-bar-section > ul > li.megamenu > .dropdown > li.has-dropdown > a {
+    max-width: 100%!important;
+    display: inline-block;
+    float: left;
+    color: #fff;
+}
+.top-bar-section > ul > li.megamenu > .dropdown > li.has-dropdown > .dropdown {
+    left: 0!important;
+    top: 45px;
+}
+.top-bar-section > ul > li.megamenu:hover > .dropdown > li.has-dropdown > .dropdown {
+    visibility: visible;
+    opacity: 1;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 16px;
+}
+
+/* Button text */
+.top-bar:not(.expanded) .top-bar-section > ul > li > a {
+    text-transform: uppercase;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 17px;
+}
+
+.top-bar:not(.expanded) .top-bar-section > ul > li > a:hover {
+	background-color: #FFF;
+	box-shadow: 0px 5px 0px 0px black inset;
+}
+    /*mega menu end*/

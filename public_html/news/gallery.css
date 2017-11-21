@@ -1,0 +1,21 @@
+
+#gallery-body{
+    background-color: #eee;
+    padding: 20px 50px 30px 50px;
+    width: 100%;
+    margin: 0px auto;
+    box-shadow:0px 5px 15px #444;
+    text-align: center;
+}
+.wrapper {
+    position:relative;
+    padding: 30px 20px 20px 20px;
+    margin: auto auto 10px auto;
+    overflow: hidden;
+}
+#gallery-body img {
+    height: 150px;
+    border: 3px double black;
+    margin: 20px;
+    background-color: #FCB616;
+}

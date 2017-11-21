@@ -1,0 +1,111 @@
+#site-content {
+    background-color: #DDD;
+}
+
+#roster-title {
+    margin: 0px 30px;
+    font-family: "Anton", Arial, sans-serif;
+    font-size:50px;
+    line-height: 50px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.table-title {
+    font-size: 36px;
+    color: #444;
+    padding-bottom: 20px;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-weight: bold;
+}
+
+#roster-table {
+    overflow: auto;
+}
+
+#roster-table th {
+    width: auto;
+    background-color:#111;
+    line-height:28px;
+    font-size: 18px;
+    text-align:left;
+    color:#FCB616;
+    font-weight:bold;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+}
+#roster-table th, td {
+    padding: 5px 20px 5px 5px;
+}
+#roster-table td {
+    border-bottom:1px solid #ddd;
+}
+.content-wrapper-left{
+    position: relative;
+    float:left;
+    width: 70%;
+    margin: 10px 20px;
+}
+.table-wrapper{
+    box-shadow:0px 5px 15px #444;
+    background-color: #eee;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+.content-wrapper-right{
+    margin: 10px 20px 10px auto;
+    float:right;
+    width: 25%;    
+}
+.wrapper {
+    width: 100%;
+    background-color: #DDD;
+    overflow: auto;
+}
+
+.leaderboard{
+    box-shadow:0px 5px 15px #444;
+    background-color: #EEE;
+    overflow: auto;
+    margin: 0px 0px 10px 0px;
+    font-size: 12px;
+    color: #444;
+    padding: 20px;
+}
+
+.playerlink:hover{
+    color:#FCB616 !important;
+}
+.entry{
+    vertical-align: middle;
+    height: 80px;
+    border-bottom: 1px solid #444;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.leaderboard-title{
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #444;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-weight: bold;
+}
+.leadername{
+    font-size: 18px;
+    float: left;
+    font-weight: bold;
+}
+.leadername a:hover{
+    color:#FCB616 !important;
+}
+.total{
+    float: right;
+    text-align: right;
+}
+.totalnumber{
+    font-family: "Anton", arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: 5px;
+}

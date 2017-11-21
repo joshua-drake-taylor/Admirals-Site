@@ -1,0 +1,153 @@
+#player-header{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size:13px;
+    box-shadow: none;
+}
+
+#player-body{
+    background-color: #DDD;
+    padding: 20px 10px 20px 10px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+table {
+    margin: auto;
+    width: auto;
+    overflow: scroll !important;
+}
+
+.table-title {
+    font-size: 36px;
+    color: #444;
+    padding-bottom: 20px;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.stats {
+    width: 100%;
+}
+
+.stats th {
+    width: auto;
+    background-color:#111;
+    line-height:28px;
+    font-size: 15px;
+    text-align:center;
+    color:#FCB616;
+    font-weight:bold;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+}
+.stats tr:nth-child(even){
+    background-color: #FCE862;
+}
+.stats th, td {
+    padding: 0px 5px;
+}
+.stats td {
+    border-bottom:1px solid #BBB;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px !important;
+    line-height: 7px;
+    height: 21px;
+}
+.wrapper {
+    width: 100%;
+    box-shadow:0px 5px 15px #444;
+    padding: 30px 20px 20px 20px;
+    margin: auto auto 10px auto;
+    background-color:white;
+    background-color: #EEE;
+    overflow: auto;
+}
+
+.skater th, td{
+    font-size: 12px !important;
+}
+#player-name{
+    font-size: 33px;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#player-picture {
+    width: 154px;
+    border-radius: 50%;
+    background-color: #FCB616;
+    border: 2px solid #000;
+    margin: 0px auto 20px auto;
+}
+.mainstat {
+    font-weight: bold !important;
+}
+.season {
+    background-color: #444;
+    color: #FCB616;
+    font-weight: bold;
+}
+.career td{
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-bottom: 0px !important;
+    background-color: #FCB616;
+    font-size = 13px;
+    color: #000 !important;
+}
+#second-bar {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto auto 50px auto;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+.icon{
+    position:relative;
+    top:4px;
+}
+
+#career-title{
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    color: #444;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.profile {
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-size: 22px;
+}
+
+.profile p {
+    line-height: 40px;
+    transform:scale(1,.8); /* W3C */
+    -webkit-transform:scale(1,.8); /* Safari and Chrome */
+    -moz-transform:scale(1,.8); /* Firefox */
+    -ms-transform:scale(1,.8); /* IE 9 */
+    -o-transform:scale(1,.8); /* Opera */
+}
+
+.top-table{
+    width: 60%;
+    float: right;
+    overflow-x:auto;
+    border: 1px solid #666;
+}
+.top-table th, .top-table td{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px !important;
+    height: 40px!important;
+}
+
+.personal{
+    float:left;
+}

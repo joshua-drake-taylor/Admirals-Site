@@ -1,0 +1,107 @@
+.content-wrapper-right{
+    float:right;
+    padding: 20px 80px;
+    width: 75%;
+    margin: 0px auto;
+    box-shadow:0px 5px 15px #444;
+    background-color: #EEE;
+    overflow: auto;
+}
+.content-wrapper-left{
+    float:left;
+    padding:0px;
+    width: 24%;
+    height: 500px;
+    margin: 0px auto;
+    box-shadow:0px 5px 15px #444;
+    background-color: #EEE;
+    overflow-y: scroll;
+}
+
+#site-content {
+    background-color: #DDD;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin: auto auto 10px auto;
+    background-color: #DDD;
+    overflow: auto;
+}
+
+#article-header{
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+#article-title {
+    font-family: "Anton", Arial, sans-serif;
+    font-size: 40px;
+    line-height:40px;
+    padding-top: 50px;
+}
+
+#article-sub {
+    font-family: "Anton", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #888;
+}
+
+#article-body img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    min-width: 60%
+}
+
+#article-body p{
+    padding-bottom: 20px;
+}
+
+#lastbutton {
+    margin-bottom:20px;
+    margin-left: 40px;
+    background-color:#FCB616;
+    font-family:"Roboto", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+#nextbutton {
+    float:right;
+    margin-bottom:20px;
+    margin-right: 40px;
+    background-color:#FCB616;
+    font-family:"Roboto", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.articlelist {
+    font-family: "Anton", Arial, sans-serif;
+    margin:0px;
+    padding: 30px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.articlelist:hover {
+    background-color: #333;
+    color: #FCB616 !important;
+}
+
+.current {
+    font-family: "Anton", Arial, sans-serif;
+    margin:0px;
+    padding: 30px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #333;
+    color: #FCB616 !important;
+}

@@ -1,0 +1,126 @@
+#site-content{
+    background-color: #EEE!important;
+}
+
+#stat-body{
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    width: 100%;
+    margin: 0px auto;
+    box-shadow:0px 5px 15px #444;
+}
+
+table a{
+    pointer-events: none;
+    cursor: pointer;
+}
+
+
+table {
+    min-width: 100%;
+    width: auto;
+}
+
+.table-container{
+    max-width: 60%;
+    height:auto;
+    overflow-x: auto;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.table-container table{
+    border-left:none;
+}
+.column-container{
+    float:left;
+    margin: 0px 0px 0px 20px;
+    border: none;
+    padding: none;
+    width: 200px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.table-container, .column-container{
+    margin-top: 30px;
+}
+.column-container table{
+    border-right: none;
+}
+
+.standings th {
+    width: auto;
+    background-color:#111;
+    line-height:28px;
+    font-size: 15px;
+    text-align:center;
+    color:#FCB616;
+    font-weight:bold;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+}
+.standings tr:nth-child(even){
+    background-color: #FCE862;
+}
+.standings th, td {
+    padding: 0px 10px;
+}
+.standings td {
+    border-bottom:1px solid #BBB;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px !important;
+    height: 20px;
+    white-space: nowrap;
+}
+.wrapper {
+    position:relative;
+    padding: 30px 20px 20px 20px;
+    margin: auto auto 10px auto;
+    background-color:white;
+    background-color: #EEE;
+    overflow: hidden;
+}
+
+.skater td{
+    font-size: 12px !important;
+}
+.mainstat {
+    font-weight: bold !important;
+}
+#season-title{
+    font-family:"Anton", arial, sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+#season-select{
+    background-color: #FCB616;
+    font-size: 17px;
+    font-weight: bold;
+    width: 75px;
+    vertical-align: middle;
+    height: 29px;
+    margin: 0px 20px 15px 20px;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+}
+
+.elim{
+    border-bottom: 3px double black !important;
+}
+
+.positive {
+    color: green !important;
+}
+
+.negative {
+    color:red !important;
+}
+.conference-title{
+    font-family:"Anton", arial, sans-serif;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 100%;
+}
